@@ -58,6 +58,45 @@ nav > ul {
     margin-bottom: 20px;
     word-wrap: break-word;
 }
+#features {
+    margin-top: 30px;
+}
+
+.grid {
+    display: flex;
+}
+
+.fa-3x {
+    font-size: 3em;
+}
+
+.fa, .fab, .fal, .far, .fas {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
+
+#features .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 125px;
+    width: 20vw;
+    color: darkorange;
+}
+
+#features .desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 125px;
+    width: 80vw;
+    padding: 5px;
+}
 
 #hero{
     display: flex;
