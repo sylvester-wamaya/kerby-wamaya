@@ -20,6 +20,12 @@ header {
     background-color: #eee;
 }
 
+.container {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+}
+
 nav {
     font-weight: 400;
     text-align: -webkit-match-parent;
@@ -58,6 +64,24 @@ nav > ul {
     margin-bottom: 20px;
     word-wrap: break-word;
 }
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
 #features {
     margin-top: 30px;
 }
@@ -68,6 +92,14 @@ nav > ul {
 
 .fa-3x {
     font-size: 3em;
+}
+
+.fa, .far, .fas {
+    font-family: "Font Awesome 5 Free";
+}
+
+.fa, .fas {
+    font-weight: 900;
 }
 
 .fa, .fab, .fal, .far, .fas {
